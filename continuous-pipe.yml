@@ -19,7 +19,7 @@ tasks:
         deploy:
             cluster: ${CLUSTER}
             environment:
-                name: '"laravel-demo-" ~ code_reference.branch'
+                name: '"cp-laravelrun-" ~ code_reference.branch'
 
             services:
                 database:
@@ -73,7 +73,7 @@ tasks:
         run:
             cluster: ${CLUSTER}
             environment:
-                name: '"laravel-demo-" ~ code_reference.branch'
+                name: '"cp-laravelrun-" ~ code_reference.branch'
 
             image:
                 from_service: web
@@ -98,7 +98,7 @@ tasks:
         deploy:
             cluster: ${CLUSTER}
             environment:
-                name: '"laravel-demo-" ~ code_reference.branch'
+                name: '"cp-laravelrun-" ~ code_reference.branch'
 
             services:
                 web:

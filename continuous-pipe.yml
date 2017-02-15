@@ -69,7 +69,7 @@ infrastructure:
                            cpu: 250m
                            memory: 250Mi
 
-nitialization:
+initialization:
     run:
         cluster: ${CLUSTER}
         environment:
